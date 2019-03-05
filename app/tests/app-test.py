@@ -11,6 +11,7 @@ class MyTest(unittest.TestCase):
         self.assertEqual(add_numbers(1.0, 1), 2)
         self.assertEqual(add_numbers(1.1, 1.1), 2.2)
         self.assertEqual(add_numbers(40, 2), 42)
+        self.assertEqual(add_numbers(42, 2), 44)
 
 
 if __name__ == '__main__':
